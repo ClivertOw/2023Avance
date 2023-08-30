@@ -1,0 +1,87 @@
+ /* Estilos para la página asdasad*/
+ body {
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    margin: 0;
+    padding: 0;
+}
+
+.bloqueC {
+    width: 100%;
+    padding: 30px;
+    
+}
+
+.bloqueCimagen1{
+    width: 100%;
+    text-align: center;
+
+}
+.bloqueCimagen1 img{
+    width: 50%;
+}
+.bloqueCtext-contenido1{
+    width: 100%;
+    padding-right: 100px;
+    padding-top: 100px;
+
+}
+
+.bloqueCtext-contenido1 h2{
+margin-top: 10px;
+font-weight: bold;
+font-size: 30px;
+text-align: left;
+}
+
+
+
+.bloqueCtext-contenido1 hr{
+    width: 30px;
+    height: 3px;
+    margin-left: 0%;
+}
+.bloqueCtext-contenido1 p{
+    text-align: justify;
+    margin-top: 20px;
+    letter-spacing: 1px;
+
+}
+.btn {
+    color: white; 
+    border: 2px solid cornflowerblue;
+    color: cornflowerblue;
+    padding: 10px 20px;
+}
+
+@media screen and (min-width: 801px){
+    .bloqueCcontainer1{
+        display: flex;
+        flex-direction: row;
+
+    }
+
+    .bloqueCimagen1 img{
+        float: left;         
+    }
+    
+}
+
+
+@media screen and (max-width: 800px) {
+    .bloqueC {
+        width: 100%;  
+    }
+
+    .bloqueCimagen1 img {
+        width: 100%;
+    }
+    .bloqueCtext-contenido1 {
+        flex-direction: column ;
+        justify-content: center;
+        align-items: center;
+        padding: 2px;
+        text-align: center;
+    }
+    
+}
